@@ -1,0 +1,28 @@
+let elementos = [64, 137, -16, 43, 67, 81, -90, 212, 10, 75]; 
+
+let valor = parseInt(gets());
+
+
+  if (valor == '64'){
+    print ("Achei " + valor + " na posicao 0")
+  } else if (valor == '137'){
+    print ("Achei " + valor + " na posicao 1")
+  } else if (valor == '-16'){ 
+    print ("Achei " + valor + " na posicao 2")
+  } else if (valor == '43'){
+    print ("Achei " + valor + " na posicao 3")
+  } else if (valor == '67'){
+    print ("Achei " + valor + " na posicao 4")
+  } else if (valor == '81'){
+    print ("Achei " + valor + " na posicao 5")
+  } else if (valor == '-90'){
+    print ("Achei " + valor + " na posicao 6")
+  } else if (valor == '212'){
+    print ("Achei " +valor + " na posicao 7")
+  } else if (valor == '10'){
+    print ("Achei " + valor + " na posicao 8")
+  } else if (valor == '75'){
+    print ("Achei " + valor + " na posicao 9")
+  }else {
+    print ("Numero " + valor + " nao encontrado!")
+  }
